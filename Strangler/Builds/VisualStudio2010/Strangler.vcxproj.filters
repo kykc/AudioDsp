@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Strangler">
+      <UniqueIdentifier>{184C0F2B-9164-0F49-CA27-AD3C4A392349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strangler\Source">
+      <UniqueIdentifier>{B6DFF02A-B085-B42E-93A3-6EDBD85758D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Library Code">
+      <UniqueIdentifier>{F7048EA6-F4B2-F31B-E402-E05D678A1111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Library Code">
+      <UniqueIdentifier>{F7048EA6-F4B2-F31B-E402-E05D678A1111}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PluginProcessor.cpp">
+      <Filter>Strangler\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PluginEditor.cpp">
+      <Filter>Strangler\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode1.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode2.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode3.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode4.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LinearInterpolationProvider.cpp">
+      <Filter>Strangler\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EnvelopeWalker.cpp">
+      <Filter>Strangler\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ClassicDynamicCompressor.cpp">
+      <Filter>Strangler\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InnoCompressorForm.cpp">
+      <Filter>Strangler\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SDKs\juce\src\audio\plugin_client\VST\juce_VST_Wrapper.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PluginProcessor.h">
+      <Filter>Strangler\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PluginEditor.h">
+      <Filter>Strangler\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\AppConfig.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JucePluginCharacteristics.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\StreamProperties.h">
+      <Filter>Strangler\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PluginProperty.h">
+      <Filter>Strangler\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\IInterpolationProvider.h">
+      <Filter>Strangler\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\IPluginPropertyConsumer.h">
+      <Filter>Strangler\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LinearInterpolationProvider.h">
+      <Filter>Strangler\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EnvelopeWalker.h">
+      <Filter>Strangler\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ClassicDynamicCompressor.h">
+      <Filter>Strangler\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\InnoCompressorForm.h">
+      <Filter>Strangler\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Strangler.rc" />
+  </ItemGroup>
+</Project>
