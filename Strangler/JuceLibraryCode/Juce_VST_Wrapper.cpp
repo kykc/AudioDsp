@@ -1,0 +1,1 @@
+#include "src/audio/plugin_client/VST/Juce_VST_Wrapper.cpp"
