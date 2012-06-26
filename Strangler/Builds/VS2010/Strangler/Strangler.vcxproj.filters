@@ -8,20 +8,11 @@
     <Filter Include="Source">
       <UniqueIdentifier>{8508030d-c9c3-468f-a10d-d3a547cc21cd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="JuceLibrarySource">
+    <Filter Include="JuceLibraryCode">
       <UniqueIdentifier>{0181c6ad-2523-42fa-bdfa-58b76db05368}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\JuceLibrarySource\AppConfig.h">
-      <Filter>JuceLibrarySource</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\JuceLibrarySource\JuceHeader.h">
-      <Filter>JuceLibrarySource</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\JuceLibrarySource\JucePluginCharacteristics.h">
-      <Filter>JuceLibrarySource</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\Source\ClassicDynamicCompressor.h">
       <Filter>Source</Filter>
     </ClInclude>
@@ -52,23 +43,17 @@
     <ClInclude Include="..\..\..\Source\StreamProperties.h">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\JuceLibraryCode\AppConfig.h">
+      <Filter>JuceLibraryCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>JuceLibraryCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\JuceLibraryCode\JucePluginCharacteristics.h">
+      <Filter>JuceLibraryCode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\JuceLibrarySource\Juce_VST_Wrapper.cpp">
-      <Filter>JuceLibrarySource</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode1.cpp">
-      <Filter>JuceLibrarySource</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode2.cpp">
-      <Filter>JuceLibrarySource</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode3.cpp">
-      <Filter>JuceLibrarySource</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode4.cpp">
-      <Filter>JuceLibrarySource</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Source\ClassicDynamicCompressor.cpp">
       <Filter>Source</Filter>
     </ClCompile>
@@ -86,6 +71,21 @@
     </ClCompile>
     <ClCompile Include="..\..\..\Source\PluginProcessor.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\Juce_VST_Wrapper.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\JuceLibraryCode1.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\JuceLibraryCode2.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\JuceLibraryCode3.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\JuceLibraryCode4.cpp">
+      <Filter>JuceLibraryCode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

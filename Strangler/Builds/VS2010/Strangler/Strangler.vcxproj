@@ -51,20 +51,23 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <ExecutablePath>$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH)</ExecutablePath>
-    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;;$(JUCE_INC);$(VST_SDK_INC);..\..\..\Source;..\..\..\JuceLibrarySource</IncludePath>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;;$(JUCE_INC);$(VST_SDK_INC);..\..\..\Source;..\..\..\JuceLibraryCode</IncludePath>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <ExecutablePath>$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH)</ExecutablePath>
-    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;;$(JUCE_INC);$(VST_SDK_INC);..\..\..\Source;..\..\..\JuceLibrarySource</IncludePath>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;;$(JUCE_INC);$(VST_SDK_INC);..\..\..\Source;..\..\..\JuceLibraryCode</IncludePath>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(JUCE_INC);$(VST_SDK_INC);..\..\..\Source;..\..\..\JuceLibrarySource</IncludePath>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(JUCE_INC);$(VST_SDK_INC);..\..\..\Source;..\..\..\JuceLibraryCode</IncludePath>
     <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(JUCE_INC);$(VST_SDK_INC);..\..\..\Source;..\..\..\JuceLibraryCode</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -108,9 +111,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\JuceLibrarySource\AppConfig.h" />
-    <ClInclude Include="..\..\..\JuceLibrarySource\JuceHeader.h" />
-    <ClInclude Include="..\..\..\JuceLibrarySource\JucePluginCharacteristics.h" />
+    <ClInclude Include="..\..\..\JuceLibraryCode\AppConfig.h" />
+    <ClInclude Include="..\..\..\JuceLibraryCode\JuceHeader.h" />
+    <ClInclude Include="..\..\..\JuceLibraryCode\JucePluginCharacteristics.h" />
     <ClInclude Include="..\..\..\Source\ClassicDynamicCompressor.h" />
     <ClInclude Include="..\..\..\Source\EnvelopeWalker.h" />
     <ClInclude Include="..\..\..\Source\IInterpolationProvider.h" />
@@ -123,11 +126,11 @@
     <ClInclude Include="..\..\..\Source\StreamProperties.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode1.cpp" />
-    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode2.cpp" />
-    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode3.cpp" />
-    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode4.cpp" />
-    <ClCompile Include="..\..\..\JuceLibrarySource\Juce_VST_Wrapper.cpp" />
+    <ClCompile Include="..\..\..\JuceLibraryCode\JuceLibraryCode1.cpp" />
+    <ClCompile Include="..\..\..\JuceLibraryCode\JuceLibraryCode2.cpp" />
+    <ClCompile Include="..\..\..\JuceLibraryCode\JuceLibraryCode3.cpp" />
+    <ClCompile Include="..\..\..\JuceLibraryCode\JuceLibraryCode4.cpp" />
+    <ClCompile Include="..\..\..\JuceLibraryCode\Juce_VST_Wrapper.cpp" />
     <ClCompile Include="..\..\..\Source\ClassicDynamicCompressor.cpp" />
     <ClCompile Include="..\..\..\Source\EnvelopeWalker.cpp" />
     <ClCompile Include="..\..\..\Source\InnoCompressorForm.cpp" />
