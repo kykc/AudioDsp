@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8508030d-c9c3-468f-a10d-d3a547cc21cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JuceLibrarySource">
+      <UniqueIdentifier>{0181c6ad-2523-42fa-bdfa-58b76db05368}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\JuceLibrarySource\AppConfig.h">
+      <Filter>JuceLibrarySource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\JuceLibrarySource\JuceHeader.h">
+      <Filter>JuceLibrarySource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\JuceLibrarySource\JucePluginCharacteristics.h">
+      <Filter>JuceLibrarySource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\ClassicDynamicCompressor.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\EnvelopeWalker.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\IInterpolationProvider.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\InnoCompressorForm.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\IPluginPropertyConsumer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\LinearInterpolationProvider.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PluginEditor.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PluginProcessor.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PluginProperty.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\StreamProperties.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\JuceLibrarySource\Juce_VST_Wrapper.cpp">
+      <Filter>JuceLibrarySource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode1.cpp">
+      <Filter>JuceLibrarySource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode2.cpp">
+      <Filter>JuceLibrarySource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode3.cpp">
+      <Filter>JuceLibrarySource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibrarySource\JuceLibraryCode4.cpp">
+      <Filter>JuceLibrarySource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\ClassicDynamicCompressor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\EnvelopeWalker.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\InnoCompressorForm.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\LinearInterpolationProvider.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\PluginEditor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\PluginProcessor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
