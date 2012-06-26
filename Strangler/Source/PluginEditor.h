@@ -11,8 +11,8 @@
 #ifndef __PLUGINEDITOR_H_A2922F6E__
 #define __PLUGINEDITOR_H_A2922F6E__
 
-#include "../JuceLibraryCode/JuceHeader.h"
-#include "../JuceLibraryCode/JucePluginCharacteristics.h"
+#include "JuceHeader.h"
+#include "JucePluginCharacteristics.h"
 #include "PluginProcessor.h"
 #include "InnoCompressorForm.h"
 

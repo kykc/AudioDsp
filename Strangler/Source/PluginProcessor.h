@@ -12,8 +12,8 @@
 #define __PLUGINPROCESSOR_H_DBC3AD65__
 
 //#include "src/audio/plugin_client/VST/juce_VST_Wrapper.cpp"
-#include "../JuceLibraryCode/JuceHeader.h"
-#include "../JuceLibraryCode/JucePluginCharacteristics.h"
+#include "JuceHeader.h"
+#include "JucePluginCharacteristics.h"
 #include "IPluginPropertyConsumer.h"
 #include "IInterpolationProvider.h"
 #include "StreamProperties.h"
