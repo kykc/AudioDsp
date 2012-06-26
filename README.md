@@ -1,9 +1,7 @@
 AudioDsp - Collection of some digital audio processors made as a research
 ========
 Instructions
-======
-Dependencies:
-=====
+==
 1. JUCE - http://www.rawmaterialsoftware.com/downloads.php
 2. Steinberg VST SDK 2.4 - http://www.steinberg.net/en/company/developer.html
 
